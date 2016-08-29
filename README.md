@@ -1,15 +1,19 @@
 # Praat on the Web
-Web implementation of Praat. Source code and documentation are included in the zip file
-The link to the web application is http://kristina.taln.upf.edu/praat_web/
+Web implementation of the entension of Praat for feature annotation available for local use under https://github.com/monikaUPF/featureAnnotationforPraat. 
+
+The link to the web application is http://kristina.taln.upf.edu/praat_web/ and it is described in our publication (Domínguez et al. 2016)
 ###############
 ## Content
 ###############
-This repository includes the following item:
-- PraatWeb.zip: source code with the web implementation of the extended version of Praat for feature annotation. 
+This repository includes source code and documentation the zip file:
+- "PraatWeb.zip"
 
 ##############
 ## System requirements
 ##############
 
+#####################
+## Reference
+#####################
 
-
+  - Domínguez, M., I. Latorre, M. Farrús, J. Codina and L. Wanner (2016). Praat on the Web: An Upgrade of Praat for Semi-Automatic Speech Annotation. Under submission
