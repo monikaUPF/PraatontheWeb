@@ -1,4 +1,4 @@
-# PraatontheWeb
+# Praat on the Web
 Web implementation of Praat. Source code and documentation are included in the zip file
 The link to the web application is http://kristina.taln.upf.edu/praat_web/
 ###############
