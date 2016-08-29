@@ -13,7 +13,9 @@ This repository includes source code and documentation the zip file:
 ##############
 
 #####################
-## Reference
+## Reference and Citation
 #####################
+
+If you use this software or modify the code please cite the following publication:
 
   - Domínguez, M., I. Latorre, M. Farrús, J. Codina and L. Wanner (2016). Praat on the Web: An Upgrade of Praat for Semi-Automatic Speech Annotation. Under submission
