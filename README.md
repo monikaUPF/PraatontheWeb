@@ -13,7 +13,7 @@ This repository includes source code and documentation the zip file:
 ##############
 
 #####################
-## Reference and Citation
+## References and Citation
 #####################
 
 If you use this software or modify the code please cite the following publication:
