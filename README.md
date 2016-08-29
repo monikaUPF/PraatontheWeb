@@ -1,6 +1,8 @@
 # Praat on the Web
 Web implementation of the entension of Praat for feature annotation available for local use under https://github.com/monikaUPF/featureAnnotationforPraat. 
 
+A tutorial on the use of the basic functions of the web implementation of Praat for feature annotations is available in the following link https://youtu.be/sJXu15Dskjs
+
 The link to the web application is http://kristina.taln.upf.edu/praat_web/ and it is described in our publication (Domínguez et al. 2016)
 ###############
 ## Content
