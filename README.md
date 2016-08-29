@@ -8,9 +8,15 @@ The link to the web application is http://kristina.taln.upf.edu/praat_web/ and i
 This repository includes source code and documentation the zip file:
 - "PraatWeb.zip"
 
-##############
-## System requirements
-##############
+#################
+## Specifications
+#################
+
+The application uses the MVC pattern with Java servlet model and is mainly developed in Java, JSP with style sheets and JavaScript. Using the following existent external libraries:
+  - jQuery
+  - Bootstrap
+  - wavesurfer.js
+  - Sortable
 
 #####################
 ## References and Citation
