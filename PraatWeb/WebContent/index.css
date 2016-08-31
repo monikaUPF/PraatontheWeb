@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+.left-content{
+	position:relative;
+	float:left;
+	width:70%;
+	padding-right: 15px;
+}
+
+.right-content{
+	position:relative;
+	float:right;
+	width:30%;
+	height:200px;
+}
+
+.thumbnail{
+	width:100%;
+	max-width: 300px;
+	height:100%;
+	max-height: 200px;
+	margin: 0px;
+}
+
+.jumbotron{
+	display:inline-block;
+	width: 100%;
+	background-color:#9DE0AD;
+	padding-top:40px;
+	padding-bottom:40px;
+	border-radius: 0px 0px 0px !important;
+}
+
+	.jumbotron h2{
+		font-size:42px;
+		margin-top: 0px;
+	}
+	
+	.jumbotron .thumbnail{
+		margin-top: 0px;
+		float: right;
+		border-radius: 0px;
+	}
+	

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Praat Scripts Web Runner</display-name>
+  <servlet>
+    <servlet-name>Modules</servlet-name>
+    <servlet-class>edu.upf.dtic.servlets.ModulesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Modules</servlet-name>
+    <url-pattern>/Modules</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Viewer</servlet-name>
+    <servlet-class>edu.upf.dtic.servlets.ViewerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Viewer</servlet-name>
+    <url-pattern>/Viewer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Split</servlet-name>
+    <servlet-class>edu.upf.dtic.servlets.SplitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Split</servlet-name>
+    <url-pattern>/Split</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Merge</servlet-name>
+    <servlet-class>edu.upf.dtic.servlets.MergeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Merge</servlet-name>
+    <url-pattern>/Merge</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ViewerForm</servlet-name>
+    <servlet-class>edu.upf.dtic.servlets.ViewerFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewerForm</servlet-name>
+    <url-pattern>/ViewerForm</url-pattern>
+  </servlet-mapping>
+</web-app>

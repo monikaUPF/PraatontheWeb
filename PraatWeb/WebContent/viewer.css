@@ -1,0 +1,285 @@
+@CHARSET "UTF-8";
+
+.textgrid-segment {
+	  color: black;
+	  border-left: 1px solid;
+	  border-right: 1px solid;
+	  height: 50px;
+	  text-align: center;
+	  overflow: hidden;
+	  position: relative;
+	  vertical-align: middle;
+      line-height: 50px;
+      text-overflow: ellipsis;
+}
+
+.supra{
+	display:inline-block;
+	position: relative;
+	float: left;
+	height:50px;
+}
+
+.gap{
+	height:50px;
+}
+
+.left-border{
+	border-left: 1px solid;
+}
+
+.right-border{
+	border-right:1px solid;
+}
+
+.phantom-div{
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.phantom-area{
+  left: 50%;
+  top: 0;
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  //z-index: 999;
+}
+
+.vertical-line {
+  left: 50%;
+  top: 0;
+  height: 50px;
+  position: absolute;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  border-left: 2px solid;
+}
+
+.textgrid-point-out{
+	height: 20%;
+	position: relative;
+	display: inline-block;
+}
+
+.textgrid-point {
+	  color: black;
+	  height: 60%;
+	  position: relative;
+	  display:block;
+	  vertical-align: middle;
+  	  line-height: 30px;
+  	  /*width: 50000px;
+  	  -webkit-transform: translate(-50%,0); 
+  	  transform: translate(-50%,0);
+  	  left: 50%;*/
+  	    overflow: hidden;
+  		text-overflow: ellipsis;
+  		z-index: 10;
+}
+
+#textgrid-resize { 
+	width: 800px;
+}
+
+.tier-title{
+  position: absolute;
+  left: 0px;
+  width: 90px;
+  margin-bottom: 10px;
+  text-align: right;
+  overflow: hidden;
+  vertical-align: middle;
+  line-height: 50px;
+  text-overflow: ellipsis;
+  
+}
+
+#waveform{
+	padding-left: 100px;
+	padding-right: 40px;
+}
+
+#waveform-timeline{
+	padding-left: 100px;
+	padding-right: 40px;
+}
+
+timeline canvas{
+	left:0px;
+	top:0px;
+	bottom:0px;
+}
+
+/*#waveform canvas{
+	background-color: white;
+}*/
+
+#drawings{
+  display: block;
+  position: relative;
+  height: 178px;
+  padding-left: 100px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-right: 40px;
+  text-align: left;
+}
+
+#textgrid-outside {
+	display: block;
+	position: relative;
+	padding-left: 100px;
+	padding-right: 40px;
+	padding-top: 20px;
+}
+
+#textgrid-overflow {
+	position: relative;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: initial;
+  overflow: hidden;
+}
+
+#chart{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: initial;
+  overflow: hidden;
+}
+
+#chart svg{
+  /*position: absolute;*/
+  z-index: 1;
+  overflow:hidden;
+  float:left;
+}
+
+#axis{
+	position: absolute;
+	overflow:visible;
+	z-index: 500;
+}
+
+/*#myCanvas { 
+	width: 800px;
+	height: 128px;
+	position: absolute;
+	left: 0px;
+    top: 0px;
+    bottom: 0px;
+}*/
+
+/*.textgrid-border {
+	border: 1px solid black;
+	padding-bottom: 15px;
+	padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 15px;
+}*/
+
+.textgrid-overflow {
+	/*height: 300px;*/
+    overflow: hidden;
+	white-space:nowrap;
+}
+
+.textgrid-tier {
+	position: relative;
+    overflow: hidden;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+	.textgrid-tier .supra{
+		text-align: center;
+	}
+
+.textgrid-tier .textgrid-segment {
+	display:inline-block;
+	/*margin-right : -4px;*/
+}
+
+#tooltip{
+	display:none;
+	position: absolute;
+	border-radius: 2px 2px 2px;
+	border-width: 4px;
+	border-style: double;
+	padding: 10px;
+	/*margin: 10px;*/
+	z-index: 1000;
+}
+
+#tooltip #title{
+	display: block;
+	font-weight: bold;
+}
+
+#tooltip #features{
+	white-space: pre;
+	display: block;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  /*display: none;*/
+}
+
+.line1 {
+  fill: none;
+  /*stroke: midnightblue;*/
+  stroke: rgba(0, 100, 180, 0.5);
+  stroke-width: 1.5px;
+}
+
+.line2 {
+  fill: none;
+  /*stroke: rgba(205, 0, 0, 0.5);*/
+  /*stroke: indianred;*/
+  stroke-width: 1.5px;
+}
+
+#lines{
+	position: relative;
+}
+
+.icon-large{
+	font-size: 20px;
+}
+
+.segment-hover{
+	/*border-width: 2px;*/
+}
+
+.point-hover{
+}
+
+span {
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
