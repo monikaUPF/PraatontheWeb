@@ -1,5 +1,5 @@
 # Praat on the Web
-Web implementation of the entension of Praat for feature annotation available for local use under https://github.com/monikaUPF/featureAnnotationforPraat. 
+Web implementation of the extension of Praat for feature annotation also available for local use and downloadable separately from the following repository https://github.com/monikaUPF/featureAnnotationforPraat. 
 
 A tutorial on the use of the basic functions of the web implementation of Praat for feature annotations is available in the following link https://youtu.be/sJXu15Dskjs
 
@@ -11,36 +11,6 @@ The link to the web application is http://kristina.taln.upf.edu/praat_web/ and i
 
 This repository includes source code and documentation.
 
-###############
-## Structure
-###############
-
-Inside PraatWeb folder you can find two subdirectories:
-  - src/edu/upf/dtic
-  - WebContent
-
-In the first one you will find all Java files divided in servlets and classes folders.
-
-In WebContent you will find all JSP, style sheets and JavaScript files, plus several folders:
-  - images
-  - META-INF
-  - samples
-  - scripts
-  - tmp
-  - WEB-INF
-
-In images folder there are the images used in the web.
-
-In META-INF folder you can find the MANIFEST.MF file.
-
-In samples folder there are the audio and TextGrid files used as samples in the web.
-
-In scripts folder there are all the Praat scripts used in the web.
-
-Tmp is an empty folder used to temporary save the content generated via web by the users.
-
-In WEB-INF folder you can find the web.xml file.
-
 #################
 ## Specifications
 #################
@@ -51,10 +21,26 @@ The application uses the MVC pattern with Java servlet model and is mainly devel
   - wavesurfer.js
   - Sortable
 
+
+###############
+## Folder Structure
+###############
+
+PraatWeb folder includes two subdirectories:
+  - src/edu/upf/dtic: contains all Java files divided in servlets and classes folders
+  - WebContent: contains all JSP, style sheets and JavaScript files, plus several folders:
+    - images: pictures used in the web
+    - META-INF: the MANIFEST.MF file
+    - samples: audio and TextGrid files used as samples in the web
+    - scripts: all the Praat scripts used in the web demos
+    - tmp: empty folder used to temporary save the content generated via web by the users
+    - WEB-INF: web.xml file
+
+
 #####################
 ## References and Citation
 #####################
 
-If you use this software or modify the code please cite the following publication:
+If you use this software and/or modify the code please cite the following publication:
 
   - Domínguez, M., I. Latorre, M. Farrús, J. Codina and L. Wanner (2016). Praat on the Web: An Upgrade of Praat for Semi-Automatic Speech Annotation. Under submission
