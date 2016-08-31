@@ -4,11 +4,34 @@ Web implementation of the entension of Praat for feature annotation available fo
 A tutorial on the use of the basic functions of the web implementation of Praat for feature annotations is available in the following link https://youtu.be/sJXu15Dskjs
 
 The link to the web application is http://kristina.taln.upf.edu/praat_web/ and it is described in our publication (Domínguez et al. 2016)
+
 ###############
 ## Content
 ###############
-This repository includes source code and documentation the zip file:
-- "PraatWeb.zip"
+
+This repository includes source code and documentation.
+
+###############
+## Structure
+###############
+
+Inside PraatWeb folder you can find two subdirectories:
+  - src/edu/upf/dtic
+  - WebContent
+In the first one you will find all Java files divided in servlets and classes folders.
+In WebContent you will find all JSP, style sheets and JavaScript files, plus several folders:
+  - images
+  - META-INF
+  - samples
+  - scripts
+  - tmp
+  - WEB-INF
+In images folder there are the images used in the web.
+In META-INF folder you can find the MANIFEST.MF file.
+In samples folder there are the audio and TextGrid files used as samples in the web.
+In scripts folder there are all the Praat scripts used in the web.
+Tmp is an empty folder used to temporary save the content generated via web by the users.
+In WEB-INF folder you can find the web.xml file.
 
 #################
 ## Specifications
