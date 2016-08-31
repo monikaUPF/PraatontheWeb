@@ -20,6 +20,7 @@ Inside PraatWeb folder you can find two subdirectories:
   - WebContent
 
 In the first one you will find all Java files divided in servlets and classes folders.
+
 In WebContent you will find all JSP, style sheets and JavaScript files, plus several folders:
   - images
   - META-INF
@@ -29,10 +30,15 @@ In WebContent you will find all JSP, style sheets and JavaScript files, plus sev
   - WEB-INF
 
 In images folder there are the images used in the web.
+
 In META-INF folder you can find the MANIFEST.MF file.
+
 In samples folder there are the audio and TextGrid files used as samples in the web.
+
 In scripts folder there are all the Praat scripts used in the web.
+
 Tmp is an empty folder used to temporary save the content generated via web by the users.
+
 In WEB-INF folder you can find the web.xml file.
 
 #################
