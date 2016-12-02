@@ -3,7 +3,7 @@ Web implementation of the extension of Praat for feature annotation also availab
 
 A tutorial on the use of the basic functions of the web implementation of Praat for feature annotations is available in the following link https://youtu.be/sJXu15Dskjs
 
-The link to the web application is http://kristina.taln.upf.edu/praat_web/ and it is described in our publication (Domínguez et al. 2016)
+The link to the web application is http://kristina.taln.upf.edu/praatweb/ and it is described in our publication (Domínguez et al. 2016)
 
 ###############
 ## Content
@@ -43,4 +43,4 @@ PraatWeb folder includes two subdirectories:
 
 If you use this software and/or modify the code please cite the following publication:
 
-  - Domínguez, M., I. Latorre, M. Farrús, J. Codina and L. Wanner (2016). Praat on the Web: An Upgrade of Praat for Semi-Automatic Speech Annotation. Under submission
+  - Domínguez, M., I. Latorre, M. Farrús, J. Codina and L. Wanner (2016). Praat on the Web: An Upgrade of Praat for Semi-Automatic Speech Annotation.  In Proceedings of the 25th International Conference on Computational Linguistics, Osaka, Japan.
