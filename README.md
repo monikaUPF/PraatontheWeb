@@ -3,7 +3,7 @@ Web implementation of the extension of Praat for feature annotation also availab
 
 A tutorial on the use of the basic functions of the web implementation of Praat for feature annotations is available in the following link https://youtu.be/sJXu15Dskjs
 
-The link to the web application is http://kristina.taln.upf.edu/praatweb/ and it is described in our publication (Domínguez et al. 2016)
+The link to the web application is https://langwiki.org/praatweb/index.jsp and it is described in our publication (Domínguez et al. 2016)
 
 ###############
 ## Content
